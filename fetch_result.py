@@ -76,7 +76,7 @@ for roll_number in range(first_roll,last_roll):
 		first_run=1
 		dept=student_details[0][0]
 		dept=dept.split()
-		print("DEPT :"+ dept[5][1:-1] + " YEAR :"+dept[2])
+		print("DEPT :"+ dept[5][1:-1] + " YEAR :"+dept[2]+" COLLEGE :"+sem_marks[4][0][22:])
 		res_str=("NAME,ROLL,")
 		for i in range(1,len(data)-1):
 			res_str+=data[i][0]+","
